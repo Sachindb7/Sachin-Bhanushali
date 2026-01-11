@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { NavItem } from '../types';
-import { NAV_ITEMS, AUTHOR_NAME } from '../constants';
+import { NavItem } from '../types.ts';
+import { NAV_ITEMS, AUTHOR_NAME } from '../constants.ts';
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -47,7 +47,6 @@ const Navbar: React.FC = () => {
               aria-expanded="false"
             >
               <span className="sr-only">Open main menu</span>
-              {/* Icon */}
               <svg className={`${isOpen ? 'hidden' : 'block'} h-6 w-6`} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
               </svg>
