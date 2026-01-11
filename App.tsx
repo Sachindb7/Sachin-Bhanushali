@@ -1,13 +1,13 @@
 import React from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar.tsx';
-import Hero from './components/Hero.tsx';
-import About from './components/About.tsx';
-import BookList from './components/BookList.tsx';
-import RightsStatement from './components/RightsStatement.tsx';
-import FAQ from './components/FAQ.tsx';
-import Contact from './components/Contact.tsx';
-import Footer from './components/Footer.tsx';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import About from './components/About';
+import BookList from './components/BookList';
+import RightsStatement from './components/RightsStatement';
+import FAQ from './components/FAQ';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
